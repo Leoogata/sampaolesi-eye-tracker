@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				medical: {
+					green: 'hsl(var(--medical-green))',
+					'green-hover': 'hsl(var(--medical-green-hover))',
+					'green-light': 'hsl(var(--medical-green-light))'
+				},
+				chart: {
+					bg: 'hsl(var(--chart-bg))',
+					border: 'hsl(var(--chart-border))',
+					grid: 'hsl(var(--chart-grid))',
+					text: 'hsl(var(--chart-text))',
+					reference: 'hsl(var(--chart-reference))',
+					bounds: 'hsl(var(--chart-bounds))',
+					'right-eye': 'hsl(var(--chart-right-eye))',
+					'left-eye': 'hsl(var(--chart-left-eye))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +78,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'navy-gradient': 'var(--navy-gradient)',
+				'hero-overlay': 'var(--hero-overlay)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

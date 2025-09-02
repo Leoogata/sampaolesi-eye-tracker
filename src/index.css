@@ -2,39 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Medical Calculator Design System - Sampaolesi Calculator
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Medical navy blue theme */
+    --primary: 217 33% 17%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 217 33% 25%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Medical green accent */
+    --medical-green: 142 69% 58%;
+    --medical-green-hover: 142 69% 48%;
+    --medical-green-light: 142 69% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 215 25% 27%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --accent: 142 69% 58%;
+    --accent-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 142 69% 58%;
+
+    /* Medical specific colors */
+    --navy-gradient: linear-gradient(135deg, hsl(217 33% 17%), hsl(217 33% 25%));
+    --hero-overlay: linear-gradient(135deg, hsl(217 33% 17% / 0.9), hsl(217 33% 25% / 0.8));
+    
+    /* Chart colors */
+    --chart-bg: 0 0% 100%;
+    --chart-border: 214 32% 91%;
+    --chart-grid: 210 16% 93%;
+    --chart-text: 215 25% 27%;
+    --chart-reference: 0 73% 41%;  /* Red for reference line */
+    --chart-bounds: 25 95% 53%;    /* Orange for bounds */
+    --chart-right-eye: 217 91% 60%; /* Blue for right eye */
+    --chart-left-eye: 25 95% 53%;  /* Orange for left eye */
 
     --radius: 0.5rem;
 
