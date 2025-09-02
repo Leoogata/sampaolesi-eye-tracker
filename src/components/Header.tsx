@@ -62,7 +62,7 @@ const Header = () => {
             <Button 
               variant="outline" 
               size="sm"
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              className="bg-white text-black border-none hover:bg-white hover:text-black"
             >
               Área do associado
             </Button>

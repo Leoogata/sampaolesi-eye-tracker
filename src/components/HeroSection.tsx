@@ -9,7 +9,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="text-primary-foreground">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              <span className="text-medical-green">CALCULADORA</span><br />
+              <span className="text-medical-green">GRÁFICO DE</span><br />
               SAMPAOLESI
             </h1>
             <div className="w-16 h-1 bg-medical-green mb-6"></div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
         {/* Description */}
         <div className="mt-16 max-w-4xl">
           <p className="text-primary-foreground/80 text-base leading-relaxed">
-            A Calculadora de Sampaolesi é uma ferramenta desenvolvida pela Sociedade Brasileira de Glaucoma com o objetivo de apoiar a comunidade oftalmológica, facilitando a interpretação e a aplicação do Gráfico de Sampaolesi na prática clínica.
+            O gráfico de Sampaolesi é uma ferramenta amplamente utilizada no acompanhamento de pacientes com glaucoma infantil e foi adaptado pela sociedade brasileira de glaucoma para um formato digital com o objetivode apoiar a comunidade oftalmológica, facilitando a interpretação e a aplicação do Gráfico de Sampaolesi na prática clínica.
           </p>
         </div>
       </div>

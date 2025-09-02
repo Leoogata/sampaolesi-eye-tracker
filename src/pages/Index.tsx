@@ -14,7 +14,7 @@ const Index = () => {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              CALCULADORA SAMPAOLESI
+              Gráfico Interativo
             </h2>
             <div className="w-24 h-1 bg-medical-green mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">

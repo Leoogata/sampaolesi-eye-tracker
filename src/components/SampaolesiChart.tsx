@@ -281,7 +281,7 @@ const SampaolesiChart = () => {
                       <path
                         d={`${createReferencePath(lowerPoints)} L ${scaleX(upperPoints[upperPoints.length - 1].x)} ${scaleY(upperPoints[upperPoints.length - 1].y)} ${createReferencePath([...upperPoints].reverse()).replace('M', 'L')} Z`}
                         fill="currentColor"
-                        className="text-medical-green/20"
+                        className="text-orange-500/20"
                       />
                     )}
                     
