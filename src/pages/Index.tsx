@@ -18,7 +18,7 @@ const Index = () => {
             </h2>
             <div className="w-24 h-1 bg-medical-green mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              O gráfico de Sampaolesi é utilizado na oftalmologia para correlacionar a pressão intraocular com a espessura corneana central, ajudando na identificação de pacientes com risco de glaucoma e na diferenciação entre hipertensão ocular e glaucoma de fato.
+              Para tornar sua aplicação mais prática, rápida e acessível, a Sociedade Brasileira de Glaucoma desenvolveu esta versão digital e interativa, que facilita a interpretação dos dados biométricos na prática clínica.
             </p>
           </div>
 

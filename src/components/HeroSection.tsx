@@ -14,7 +14,7 @@ const HeroSection = () => {
             </h1>
             <div className="w-16 h-1 bg-medical-green mb-6"></div>
             <p className="text-lg mb-8 leading-relaxed opacity-90">
-              Uma calculadora do gráfico de Sampaolesi feita para a comunidade oftalmológica
+              O Gráfico de Sampaolesi é uma ferramenta amplamente utilizada no acompanhamento de pacientes com glaucoma pediátrico.
             </p>
           </div>
 
@@ -36,7 +36,9 @@ const HeroSection = () => {
         {/* Description */}
         <div className="mt-16 max-w-4xl">
           <p className="text-primary-foreground/80 text-base leading-relaxed">
-            O gráfico de Sampaolesi é uma ferramenta amplamente utilizada no acompanhamento de pacientes com glaucoma infantil e foi adaptado pela sociedade brasileira de glaucoma para um formato digital com o objetivode apoiar a comunidade oftalmológica, facilitando a interpretação e a aplicação do Gráfico de Sampaolesi na prática clínica.
+            O Gráfico de Sampaolesi permite acompanhar o comprimento axial ocular em crianças ao longo dos primeiros meses de vida.
+Ele oferece uma referência clínica para avaliar se o crescimento ocular está compatível com a idade, sendo especialmente útil no monitoramento de pacientes com glaucoma congênito, auxiliando na avaliação da progressão da doença e na identificação de assimetrias entre os olhos.
+
           </p>
         </div>
       </div>
