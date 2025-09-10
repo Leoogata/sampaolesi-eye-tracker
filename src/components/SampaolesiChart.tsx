@@ -181,14 +181,6 @@ const SampaolesiChart = () => {
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-0.5 bg-chart-reference"></div>
-              <span>f(x): 18.7 + 2.245 × log₁₀(x)</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-8 h-0.5 bg-chart-bounds border-dashed border border-chart-bounds"></div>
-              <span>Limites: g(x) e h(x)</span>
-            </div>
-            <div className="flex items-center space-x-3">
               <div className="w-4 h-4 bg-chart-right-eye rounded-full"></div>
               <span>Olho Direito</span>
             </div>
